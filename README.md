@@ -22,6 +22,9 @@ Like a real sausage, the SAUSAGE framework mixes different ingredients to achiev
 
 # What's in the framework
 The framework has 7 core sections with different subsections.
+
+![sausage](sausage.png)
+
 ## [1. Mission and services](#mission-and-services)
 - [Security events and incidents](#security-events-and-incidents)
 - [Threat management](#threat-management)
