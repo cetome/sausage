@@ -127,14 +127,14 @@ Use this section to analyse the answers of your SOC providers.
 - **Number of staff**: a higher number of staff offers insights on the capabilities to deliver advanced services. However it is not an indicator that shall be taken on its own.
 	- 1-5 FTE
 	- 5-10 FTE
-	- > 10 FTE				
+	- \> 10 FTE				
 
 - **Yearly staff turnover**: a higher turnover would affect the quality of service, as new staff needs time to feel at ease the environment.
 choices:
 	- < 5%
 	- 5-25%
 	- 25%-50%
-	- >50%			
+	- \> 50%			
 
 ### Skills
 - **Staff specialism**: Having staff dedicated per service-line (such as threat intelligence, detection, etc.) can become very important when subscribing to services which require specialist skillset
