@@ -12,7 +12,7 @@ SAUSAGE helps you to:
 - Create a request for proposal for consulting SOC providers
 - Evaluating suppliers to select the most appropriate one
 
-**SAUSAGE** is the framework to identify SOC requirements, create an RfP and analyse the outcome. We are working on **MUSTARD** (Multiple Users SOC To Achieve Real Defence) to build this RfP.
+**SAUSAGE** is the framework to identify SOC requirements, create an RfP and analyse the outcome. We are working on **MUSTARD** (Multiple Users SOC To Achieve Real Defence) to build this RfP. More simply, SAUSAGE is the first SOC procurement framework available publicly.
 
 SAUSAGE was developed using multiple references from academia, ENISA, FIRST, SANS and others.
 
