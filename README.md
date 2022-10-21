@@ -125,10 +125,10 @@ Service delivery follows a set model of operations​
 
 ### Integration with your organisation
 - **Integration with your processes**: integration with your organisation existing processes for business continuity, reporting lines, out of hour support, etc. For example, can the SOC react directly or must contact someone internally?
-	- Can react directly for all incidents
-	- Can react directly for specific incidents or incidents above threshold
-	- Must contact CLIENT for specific incidents or incidents above threshold
-	- Must contact CLIENT for all events
+	- The SOC can react directly for all incidents
+	- The SOC can react directly for specific incidents or incidents above threshold
+	- The SOC must contact you for specific incidents or incidents above threshold
+	- The SOC must contact you for all events
 
 - **Alerts and priorities**: define the rules to contact your organisation depending on the level of alert and priorities, including handling of important issues out-of-hour.
 	- Alerts and priorities are defined by the SOC
