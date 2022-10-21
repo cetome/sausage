@@ -95,7 +95,7 @@ The mission and services apply to the assets in scope​.
 
 ### IoT systems
 IoT products acquired and deployed as well as IoT products released on the market.
-- **[IoT] Cloud**: the SOC monitors theCloud infrastructure and associated services exposed to the Internet as well as Cloud-to-Cloud communications for IoT systems
+- **[IoT] Cloud**: the SOC monitors the Cloud infrastructure and associated services exposed to the Internet as well as Cloud-to-Cloud communications for IoT systems
 - **[IoT] Internet communications**: the SOC monitors internet communications between IoT devices, mobile apps and Cloud systems to detect loss of service, unauthorized access, mass compromise, vulnerable environments, etc.
 - **[IoT] Devices**: the SOC monitors individual devices to detect loss of service, unauthorized access (local or remote), compromise (for example Botnet), etc.
 - **[IoT] LAN communications**: the SOC monitors LAN communications with the device to detect unauthorized access, compromise (for example Botnet), packet injection, degraded service, etc.
