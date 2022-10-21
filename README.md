@@ -22,38 +22,38 @@ Like a real sausage, the SAUSAGE framework mixes different ingredients to achiev
 
 # What's in the framework
 The framework has 7 core sections with different subsections.
-## [Mission and services](#mission-and-services)
+## [1. Mission and services](#mission-and-services)
 - [Security events and incidents](#security-events-and-incidents)
 - [Threat management](#threat-management)
 - [Vulnerabilities](#vulnerabilities)
 - [Risk management](#risk-management)
 - [Security administration](security-administration)
 
-## [Scope](#scope)
+## [2. Scope](#scope)
 - [IT systems](#it-systems)
 - [IoT systems](#iot-systems)
 
-## [Operations](#operations)
+## [3. Operations](#operations)
 - [Operational model](#operational-model)
 - [Integration with your organisation](#integration-with-your-organisation)
 - [Business relationships](#business-relationships)
 
-## [Staffing and Skills](#staffing-and-skills)
+## [4. Staffing and Skills](#staffing-and-skills)
 - [Staffing](#staffing)
 - [Skills](#skills)
 - [Organisation of the SOC](#organisation-of-the-soc)
 
-## Architecture and tools(#architecture-and-tools)
+## [5. Architecture and tools](#architecture-and-tools)
 - [Tools](#tools)
 - [Logs](#logs)
 - [SOC security](#soc-security)
 - [Remote access](#remote-access)
 
-## Key Performance Indicators(#key-performance-indicators)
+## [6. Key Performance Indicators](#key-performance-indicators)
 - [Reporting requirements](#reporting-requirements)
 - [Metrics](#metrics)
 
-## [Enabling requirements](#enabling-requirements)
+## [7. Enabling requirements](#enabling-requirements)
 - [Governance and project management](#governance-and-project-management)
 - [Change management](#change-management)
 
