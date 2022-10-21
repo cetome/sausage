@@ -12,9 +12,53 @@ SAUSAGE helps you to:
 - Create a request for proposal for consulting SOC providers
 - Evaluating suppliers to select the most appropriate one
 
+**SAUSAGE** is the framework to identify SOC requirements, create an RfP and analyse the outcome. We are working on **MUSTARD** (Multiple Users SOC To Achieve Real Defence) to build this RfP.
+
 SAUSAGE was developed using multiple references from academia, ENISA, FIRST, SANS and others.
 
-## Mission and Services:
+## Why the name SAUSAGE?
+SOC is good. In French, "_soc is_" can be read _saucisse_ (_sausage_ in English). And we all agree that _saucisse_ is good.
+Like a real sausage, the SAUSAGE framework mixes different ingredients to achieve a great result.
+
+# What's in the framework
+The framework has 7 core sections with different subsections.
+## [Mission and services](./#mission-and-services)
+- [Security events and incidents](#security-events-and-incidents)
+- [Threat management](#threat-management)
+- [Vulnerabilities](#vulnerabilities)
+- [Risk management](#risk-management)
+- [Security administration](security-administration)
+
+## [Scope](#scope)
+- [IT systems](#it-systems)
+- [IoT systems](#iot-systems)
+
+## [Operations](#operations)
+- [Operational model](#operational-model)
+- [Integration with your organisation](#integration-with-your-organisation)
+- [Business relationships](#business-relationships)
+
+## [Staffing and Skills](#staffing-and-skills)
+- [Staffing](#staffing)
+- [Skills](#skills)
+- [Organisation of the SOC](#organisation-of-the-soc)
+
+## Architecture and tools(#architecture-and-tools)
+- [Tools](#tools)
+- [Logs](#logs)
+- [SOC security](#soc-security)
+- [Remote access](#remote-access)
+
+## Key Performance Indicators(#key-performance-indicators)
+- [Reporting requirements](#reporting-requirements)
+- [Metrics](#metrics)
+
+## [Enabling requirements](#enabling-requirements)
+- [Governance and project management](#governance-and-project-management)
+- [Change management](#change-management)
+
+# The SAUSAGE Framework
+## Mission and Services
 The SOC must provide added-value to the organisation.
 
 ### Security events and incidents
@@ -30,15 +74,15 @@ The SOC must provide added-value to the organisation.
 - **Vulnerability discovery**: the SOC discovers vulnerabilities through scanning or using correlation with an asset management system (e.g. CMDB)
 - **Vulnerability management**: the SOC manages vulnerabilities, from triage to remediation (including patching)
 
-# Risk management
+### Risk management
 - **Offensive security services**: the SOC performs assessments of the security posture via penetration testing, red teaming, purple teaming for the assets in scope
 - **Security awareness and exercises**: the SOC organizes security awareness campaigns and exercises to your staff
 
-### Security adminsitration
+### Security administration
 - **Security architecture**: the SOC develops and implements secure architecture for the assets in scope or assets interacting with these
 - **Security administration**: the SOC manages the security requirements for the assets in scope (configuration, update)
 
-## Scope:
+## Scope
 The mission and services apply to the assets in scope​.
 ### IT systems
 - **[IT] Cloud**: the SOC monitors IT Cloud systems and associated services (Office 365, Emails, SaaS, etc.) to detect phishing attempts, malware, data leaks
@@ -48,7 +92,7 @@ The mission and services apply to the assets in scope​.
 - **[IT] Data**: the SOC monitors the data stored on IT systems to detect unauthorized access, mass download / deletion, ransomware, etc.
 - **[IT] Endpoints**: the SOC monitors IT endpoints to protect against malware, ransomware, data leak, etc.
 - **[IT] Compliance monitoring**: the SOC monitors the application of policies for asset configuration and operations, to detect issues and gaps. For example: lack of MFA, lack of encryption or access control, breach of GDPR requirements, etc.
-    
+
 ### IoT systems
 IoT products acquired and deployed as well as IoT products released on the market.
 - **[IoT] Cloud**: the SOC monitors theCloud infrastructure and associated services exposed to the Internet as well as Cloud-to-Cloud communications for IoT systems
@@ -68,53 +112,50 @@ Service delivery follows a set model of operations​
 	- No opinion
 
 - **Service Level Agreement**: define the level of service provided day-to-day and in the event of a major global incident
-    - Top priority
-    - Acknowledged within 4 hours
-    - Acknowledged within 24 hours
-    - Acknowledged within 48 hours
-    - Best effort
+	- Top priority
+	- Acknowledged within 4 hours
+	- Acknowledged within 24 hours
+	- Acknowledged within 48 hours
+	- Best effort
 
 - **Structure of the SOC**: define the way the SOC operates, with a hierarchical or flat organization. This will be used to assess the SOC.
-    choices:
-    - SOC manager and analysts (one person = one role)
-    - Several levels of analysts (L1 analysts can escalate to L2 analysts)
-    - Flat organization (managers do analysis)
+	- SOC manager and analysts (one person = one role)
+	- Several levels of analysts (L1 analysts can escalate to L2 analysts)
+	- Flat organization (managers do analysis)
 
 ### Integration with your organisation
 - **Integration with your processes**: integration with your organisation existing processes for business continuity, reporting lines, out of hour support, etc. For example, can the SOC react directly or must contact someone internally?
-choices:
-    - Must contact CLIENT for all events
-    - Must contact CLIENT for specific incidents or incidents above threshold
-    - Can react directly for specific incidents or incidents above threshold
-    - Can react directly for all incidents
+	- Can react directly for all incidents
+	- Can react directly for specific incidents or incidents above threshold
+	- Must contact CLIENT for specific incidents or incidents above threshold
+	- Must contact CLIENT for all events
 
 - **Alerts and priorities**: define the rules to contact your organisation depending on the level of alert and priorities, including handling of important issues out-of-hour.
 	- Alerts and priorities are defined by the SOC
 	- Alerts and priorities defined by your organisation and the SOC must comply with them
 	- Alerts and priorities defined together between your organisation and the SOC
 		
-- **Communication channels**: define internal and external communication channels to manage alerts and contact the relevant stakeholders
-choices:
+- **Communication channels**: define internal and external communication channels to manage alerts and contact the relevant stakeholders.
 	- Use of your ticketing system
 	- Use of the telephone
 	- Use of email
 	- Use of a system in-house to the SOC
-	- Other system of communication (Slack, Teams,  Whatsapp, etc)
+	- Other system of communication (Slack, Teams, Whatsapp, etc)
 
 ### Business relationships
 - **Use of your data**: is your data collected by the SOC reintegrated and reused for other stakeholders, for example to provide Threat Intelligence services to their other clients?
-	- No
-	- Only for some data
 	- Yes
+	- Only for some data
+	- No
 	- No opinion	
 
 - **External relationship**: the SOC can have working relationships with other SOCs or CERTs to address specific incidents for example.
-	- No
-	- Only for some services (precise which ones)
 	- Yes
+	- Only for some services (precise which ones)
+	- No
 	- No opinion
 	
-## Staffing and Skills:
+## Staffing and Skills
 A SOC must have enough people with the right skillset to provide their services on the agreed scope.
 Use this section to analyse the answers of your SOC providers.
 
@@ -130,8 +171,7 @@ Use this section to analyse the answers of your SOC providers.
 	- \> 10 FTE				
 
 - **Yearly staff turnover**: a higher turnover would affect the quality of service, as new staff needs time to feel at ease the environment.
-choices:
-	- < 5%
+	- \< 5%
 	- 5-25%
 	- 25%-50%
 	- \> 50%			
@@ -162,7 +202,7 @@ choices:
 - **Continuity of service**: ensure the continuity of service. Are all positions doubled? What happens when dedicated staff leaves?
 	- Covering for one member of staff is done on a case per case basis
 	- SOC provider has a process to ensure all posts are covered during holidays, sick leave etc.
-	- SOC provider has doubled all posts for a shift				
+	- SOC provider has doubled all posts for a shift			
 
 - **SOC Support staff**: is there any support staff in the SOC? For example, for the installation and maintenance of IT systems.
 	- The same individuals operate the SOC and maintain its systems. SOC provider must provide the average time used for system maintenance in FTE or % of time per individual.
@@ -286,7 +326,7 @@ Identify your internal requirements and their availability to date: Fully availa
 	- Attack scenarios
 	- What other elements do you see to prepare the project?
 
-###  Change management
+### Change management
 - **Implementation of changes**: implement and manage changes in the relevant documents, architecture, assets, to enable service delivery of the SOC: creation of a secure and unique time source, open ports, API keys, update processes, new accounts, etc. Note: this will depend on the answers to the previous items.
 
-- **Awareness and training**: ensure internal staff are aware of the SOC and know about it, how it integrates with their tools, etc. 
+- **Awareness and training**: ensure internal staff are aware of the SOC and know about it, how it integrates with their tools, etc.
