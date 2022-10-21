@@ -12,7 +12,7 @@ SAUSAGE helps you to:
 - Create a request for proposal for consulting SOC providers
 - Evaluating suppliers to select the most appropriate one
 
-SAUSAGE was developed using multiple references from academia, ENISA, FIRST, SANS, FIRST and others.
+SAUSAGE was developed using multiple references from academia, ENISA, FIRST, SANS and others.
 
 ## Mission and Services:
 The SOC must provide added-value to the organisation.
