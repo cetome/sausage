@@ -65,14 +65,14 @@ Service delivery follows a set model of operations​
 	- Follow the sun (multiple geographical sites)
 	- Working hours only
 	- Outside working hours only (for example you want a hybrid internal-external SOC)
-    - No opinion
+	- No opinion
 
 - **Service Level Agreement**: define the level of service provided day-to-day and in the event of a major global incident
-    - Best effort
-    - Treated within 48 hours
-    - Treated within 24 hours
-    - Treated within 4 hours
     - Top priority
+    - Acknowledged within 4 hours
+    - Acknowledged within 24 hours
+    - Acknowledged within 48 hours
+    - Best effort
 
 - **Structure of the SOC**: define the way the SOC operates, with a hierarchical or flat organization. This will be used to assess the SOC.
     choices:
