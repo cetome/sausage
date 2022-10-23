@@ -41,7 +41,7 @@ The framework has 7 core sections with different subsections.
 - [Integration with your organisation](#integration-with-your-organisation)
 - [Business relationships](#business-relationships)
 
-## [4. Staffing and Skills](#staffing-and-skills)
+## [4. Staffing and skills](#staffing-and-skills)
 - [Staffing](#staffing)
 - [Skills](#skills)
 - [Organisation of the SOC](#organisation-of-the-soc)
@@ -158,7 +158,7 @@ Service delivery follows a set model of operations​
 	- No
 	- No opinion
 	
-## Staffing and Skills
+## Staffing and skills
 A SOC must have enough people with the right skillset to provide their services on the agreed scope.
 Use this section to analyse the answers of your SOC providers.
 
