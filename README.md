@@ -214,7 +214,8 @@ Use this section to analyse the answers of your SOC providers.
 	
 	
 ## Architecture and tools
-The SOC must integrate with your existing architecture and tools​ Use this section to analyse the answers of your SOC providers.
+The SOC must integrate with your existing architecture and tools.
+Use this section to analyse the answers of your SOC providers.
 
 ### Tools
 - **Tools used**: the tools used by the SOC must support the services delivered.
@@ -227,10 +228,10 @@ The SOC must integrate with your existing architecture and tools​ Use this sec
 	- How is the SOC connected to our environment?
 
 ### Logs
-- **Log collection​**: The architecture and systems used to retrieve and store logs. For example, aggregation in a SIEM.​
-- **Log format​**: The format of logs to analyse. For example: XML, text, SQL.​
-- **Log granularity​**: The type and precision of events collected in logs. For example: unauthorised access vs all accesses.​
-- **Log retention​**: The time the logs are retained to find correlation and perform forensics. This defines the capacity of the storage system.​
+- **Log collection**: The architecture and systems used to retrieve and store logs. For example, aggregation in a SIEM.​
+- **Log format**: The format of logs to analyse. For example: XML, text, SQL.​
+- **Log granularity**: The type and precision of events collected in logs. For example: unauthorised access vs all accesses.​
+- **Log retention**: The time the logs are retained to find correlation and perform forensics. This defines the capacity of the storage system.​
 
 ### SOC security
 - **SOC architecture**: The SOC architecture must support resilience.
@@ -293,7 +294,7 @@ The KPIs contribute to the evaluation of the SOC and to your continuous improvem
 	- Number of high / critical incidents					
 	- Number of incidents with known vulnerability exploited					
 	- Incident occurrence due to known vs. unknown vulnerability					
-	- Number of tasks assigned to CLIENT					
+	- Number of tasks assigned to your organisation					
 	- Duration of service loss per incident					
 	- Thoroughness and accuracy of threat hunting					
 	- Thoroughness of eradication (no recurrence of original or similar compromise)					
