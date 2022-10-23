@@ -25,7 +25,7 @@ The framework has 7 core sections with different subsections.
 
 ![sausage](sausage.png)
 
-A visual interface of the SAUSAGE framework at [sausage.cetome.com](sausage.cetome.com).
+A visual interface of the SAUSAGE framework at [sausage.cetome.com](https://sausage.cetome.com).
 
 ## [1. Mission and services](#mission-and-services)
 - [Security events and incidents](#security-events-and-incidents)
