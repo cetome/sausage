@@ -25,6 +25,8 @@ The framework has 7 core sections with different subsections.
 
 ![sausage](sausage.png)
 
+A visual interface of the SAUSAGE framework at [sausage.cetome.com](sausage.cetome.com).
+
 ## [1. Mission and services](#mission-and-services)
 - [Security events and incidents](#security-events-and-incidents)
 - [Threat management](#threat-management)
@@ -61,6 +63,7 @@ The framework has 7 core sections with different subsections.
 - [Change management](#change-management)
 
 # The SAUSAGE Framework
+
 ## Mission and Services
 The SOC must provide added-value to the organisation.
 
