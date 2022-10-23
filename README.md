@@ -276,7 +276,7 @@ The KPIs contribute to the evaluation of the SOC and to your continuous improvem
 	- Quarterly
 	- Yearly	
 
-**Generation of report**: How are reports generated? Does it require manual input or is it automated?
+- **Generation of report**: How are reports generated? Does it require manual input or is it automated?
 	- Manual inputs	required
 	- Automated reports
 	
