@@ -7,10 +7,10 @@ However, everybody seems to be offering external SOC services. It becomes diffic
 
 For that purpose, we created the SAUSAGE framework, a SOC Assistant for Useful Service and Greater Experience with your external SOC provider.
 
-SAUSAGE helps you to:
+SAUSAGE is a procurement framework to:
 - Identify SOC requirements that fit your needs
 - Create a request for proposal for consulting SOC providers
-- Evaluating suppliers to select the most appropriate one
+- Evaluate suppliers to select the most appropriate one
 
 **SAUSAGE** is the framework to identify SOC requirements, create an RfP and analyse the outcome. We are working on **MUSTARD** (Multiple Users SOC To Achieve Real Defence) to build this RfP. More simply, SAUSAGE is the first SOC procurement framework available publicly.
 
